@@ -4,7 +4,7 @@
 // Un array di oggetti footerLink
 /*
 footerLink : [
-  {title: "Titolo1", text: ["paragrafo"]},
+  {title: "Titolo1", links: ["paragrafo"]},
   {title: "Titolo1", links: ["link1", "link2", "link3", "link4"]},
   {title: "Titolo1", links: ["link1", "link2", "link3", "link4"]},
   {title: "Titolo1", links: ["link1", "link2", "link3", "link4"]}
@@ -13,6 +13,8 @@ footerLink : [
 const app = new Vue({
   el : "#app",
   data : {
-    
+    logoPath: "img/logo.png",
+    headerLink: ["Home", "Apple", "Microsoft", "Android", "Forums", "Contact us", "JOIN US"],
+    searchIcon: "fas fa-search"
   }
 });
