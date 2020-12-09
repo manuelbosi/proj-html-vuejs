@@ -10,3 +10,9 @@ footerLink : [
   {title: "Titolo1", links: ["link1", "link2", "link3", "link4"]}
 ];
 */
+const app = new Vue({
+  el : "#app",
+  data : {
+    
+  }
+});
