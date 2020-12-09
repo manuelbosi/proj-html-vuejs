@@ -111,35 +111,36 @@ header ul > li > i.fas {
 }
 
 /* LATEST NEWS */
-/* top */
+/* post */
 #latest-news .title h1 {
   font-size: 30px;
 }
-#latest-news .top {
+#latest-news .post {
   display: flex;
   justify-content: space-between;
 }
-#latest-news .top > article {
+#latest-news .post > article {
   margin: 0 5px;
   flex-basis: calc((100% / 3) - 10px);
 }
-#latest-news .top > article > img {
+#latest-news .post > article > img {
   max-width: 100%;
 }
-#latest-news .top > article span {
+#latest-news .post > article span {
   font-size: 12px;
 }
-#latest-news .top > article .comments-nr {
+#latest-news .post > article .comments-nr {
   font-weight: bold;
   color: grey;
 }
-#latest-news .top > article > p {
+#latest-news .post > article > p {
   font-size: 14px;
   line-height: 25px;
   padding-right: 5px;
+  margin-top: 10px;
 }
-#latest-news .top > article > span,
-#latest-news .top > article > p {
+#latest-news .post > article > span,
+#latest-news .post > article > p {
   color: #aeaeae;
 }
 
