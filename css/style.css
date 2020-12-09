@@ -10,6 +10,7 @@
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .triangle {
   position: absolute;
@@ -49,9 +50,34 @@ header ul > li > i.fas {
   cursor: pointer;
 }
 
-
-
-
+/* JUMBOTRON */
+#jumbotron {
+  background-image: url(../img/home_slider_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+#jumbotron > .container {
+  width: 70%; /* ALTRIMENTI NON MI CENTRA IL CONTAINER*/
+  color: white;
+}
+#jumbotron h1 {
+  font-size: 100px;
+}
+#jumbotron p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(235, 235, 235);
+  font-size: 18px;
+}
+#jumbotron a {
+  background-color: #27aabe;
+  padding: 10px;
+  font-weight: bold;
+}
 
 /* FOOTER */
 #footerApp > .container {
@@ -68,15 +94,12 @@ header ul > li > i.fas {
   border: 1px solid black;
 }
 #jumbotron {
-  min-height: 600px;
   border: 2px solid red;
 }
 #jumbotron > .container {
-  min-height: 150px;
   border: 1px solid rgb(0, 0, 0);
 }
 main > section {
-  min-height: 300px;
   border: 5px solid rgb(0, 255, 64);
   background-color: #cccc;
 }
