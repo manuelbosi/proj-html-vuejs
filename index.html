@@ -16,7 +16,7 @@
     <div class="container">
       <div><img :src="logoPath" alt="logo"></div>
       <ul>
-        <li v-for="link in headerLinks"><a href="#"> {{link}} </a></li>
+        <li v-for="link in headerLinks" :class="link === 'JOIN US' ? 'join-btn' : ''"><a href="#"> {{link}} </a></li>
         <li><i :class="searchIcon"></i></li>
       </ul>
     </div>
