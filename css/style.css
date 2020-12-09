@@ -83,7 +83,7 @@ header ul > li > i.fas {
 #description {
   background-color: #f2f2f2;
   text-align: center;
-  padding: 50px 0;
+  padding: 5% 0;
 }
 #description h3 {
   color: rgba(58, 58, 58, 0.8);
@@ -93,6 +93,7 @@ header ul > li > i.fas {
   margin: auto;
   width: 60%;
   letter-spacing: 2px;
+  line-height: 25px;
 }
 
 
