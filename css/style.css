@@ -22,7 +22,29 @@ a {
   border-width: 25px 25px 0 25px;
   border-color: #27aabe transparent transparent transparent;
 }
-
+.title > h4 {
+  color: rgba(58, 58, 58, 0.8);
+  margin-bottom: 20px;
+}
+.title > h1,
+.title > h4 {
+  text-align: center;
+}
+.title > h1 {
+  margin: 20px 0;
+}
+.title > hr {
+  margin: 40px auto;
+  width: 5%;
+  border-bottom: 0;
+  border-top: 1px solid #fc8c5e;
+  margin-top: 20px;
+}
+.btn-blk {
+  padding: 10px;
+  background-color: black;
+  font-weight: bold;
+}
 /* HEADER */
 header {
   padding: 5px 0;
@@ -37,10 +59,6 @@ header > .container {
 header ul li {
   display: inline-block;
   margin: 0 15px;
-}
-header ul > li.join-btn {
-  padding: 10px;
-  background-color: black;
 }
 header ul > li > a {
   color: white;
@@ -85,10 +103,6 @@ header ul > li > i.fas {
   text-align: center;
   padding: 5% 0;
 }
-#description h3 {
-  color: rgba(58, 58, 58, 0.8);
-  margin: 10px 0;
-}
 #description p {
   margin: auto;
   width: 60%;
@@ -96,7 +110,65 @@ header ul > li > i.fas {
   line-height: 25px;
 }
 
+/* LATEST NEWS */
+/* top */
+#latest-news .title h1 {
+  font-size: 30px;
+}
+#latest-news .top {
+  display: flex;
+  justify-content: space-between;
+}
+#latest-news .top > article {
+  margin: 0 5px;
+  flex-basis: calc((100% / 3) - 10px);
+}
+#latest-news .top > article > img {
+  max-width: 100%;
+}
+#latest-news .top > article span {
+  font-size: 12px;
+}
+#latest-news .top > article .comments-nr {
+  font-weight: bold;
+  color: grey;
+}
+#latest-news .top > article > p {
+  font-size: 14px;
+  line-height: 25px;
+  padding-right: 5px;
+}
+#latest-news .top > article > span,
+#latest-news .top > article > p {
+  color: #aeaeae;
+}
 
+/* center */
+#latest-news .center {
+  display: flex;
+  margin: 40px 0;
+  background-image: url(../img/featured_article_1_bg.jpg);
+  background-size: cover;
+  min-height: 500px;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+#latest-news .center .text > h1 {
+  font-size: 30px;
+}
+#latest-news .center .text > span {
+  letter-spacing: 2px;
+}
+#latest-news .center > .text *{
+  margin: 20px;
+}
+#latest-news .center a {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
 
 /* FOOTER */
 #footerApp > .container {
@@ -110,15 +182,16 @@ header ul > li > i.fas {
 
 /* DEBUG */
 .container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 #jumbotron {
   border: 2px solid red;
 }
 #jumbotron > .container {
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
 }
 main > section {
+  min-height: 300px;
   border: 5px solid rgb(0, 255, 64);
 }
 footer {

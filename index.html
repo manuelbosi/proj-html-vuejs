@@ -16,7 +16,7 @@
     <div class="container">
       <div><img :src="logoPath" alt="logo"></div>
       <ul>
-        <li v-for="link in headerLinks" :class="link === 'JOIN US' ? 'join-btn' : ''"><a href="#"> {{link}} </a></li>
+        <li v-for="link in headerLinks" :class="link === 'JOIN US' ? 'btn-blk' : ''"><a href="#"> {{link}} </a></li>
         <li><i :class="searchIcon"></i></li>
       </ul>
     </div>
@@ -37,7 +37,11 @@
 
     <section id="description">
       <div class="container">
-        <h3>AVADA FORUM IS THE PLACE TO BE</h3>
+
+        <div class="title">
+          <h4>AVADA FORUM IS THE PLACE TO BE</h4>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic dolore.
           expedita provident nam amet unde ducimus necessitatibus facere debitis.
@@ -48,7 +52,61 @@
 
     <section id="latest-news">
       <div class="container">
-        latest-news
+
+        <div class="title">
+          <h4>AVADA FORUM IS THE PLACE TO BE</h4>
+          <h1>All the latest news</h1>
+          <hr>
+        </div>
+
+        <div class="top">
+
+          <article>
+            <img src="img/post_feat_img_25-700x441.jpg" alt="post_1">
+            <h4>Post title 1</h4>
+            <span>October 11th, 2015 | </span><span class="comments-nr">2 Comments</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas asperiores commodi culpa quas corrupti corpori
+            </p>
+          </article>
+
+          <article>
+            <img src="img/post_feat_img_24-700x441.jpg" alt="post_2">
+            <h4>Post title 1</h4>
+            <span>October 11th, 2015 | </span><span>Comments Off</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas asperiores commodi culpa quas corrupti
+              corpori
+            </p>
+          </article>
+
+          <article>
+            <img src="img/post_feat_img_23-700x441.jpg" alt="post_3">
+            <h4>Post title 1</h4>
+            <span>October 11th, 2015 | </span><span>Comments Off</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas asperiores commodi culpa quas corrupti
+              corpori
+            </p>
+          </article>
+
+        </div>
+
+        <div class="center">
+          <div class="text">
+            <span>FEATURED ARTICLE</span>
+            <h1>All the latest news</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, asperiores amet non nulla perferendis dignissimos repudiandae delectus voluptas magni accusantium velit eligendi.asperiores amet non nulla perferendis dignissimos repudiandae delectus voluptas magni accusantium velit eligendi.
+            </p>
+            <a href="#" class="btn-blk">READ MORE ></a>
+          </div>
+        </div>
+
+        <div class="bottom">
+          bottom
+        </div>
+
       </div>
     </section>
 
