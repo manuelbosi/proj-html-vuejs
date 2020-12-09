@@ -12,11 +12,11 @@
 <body>
   
   <!-- HEADER -->
-  <header id="app">
+  <header id="headerApp">
     <div class="container">
       <div><img :src="logoPath" alt="logo"></div>
       <ul>
-        <li v-for="link in headerLink"><a href="#"> {{link}} </a></li>
+        <li v-for="link in headerLinks"><a href="#"> {{link}} </a></li>
         <li><i :class="searchIcon"></i></li>
       </ul>
     </div>
@@ -24,13 +24,77 @@
   </header>
 
   <!-- JUMBOTRON -->
-  <section id="jumbotron"></section>
+  <section id="jumbotron">
+    <div class="container">
+      jumbotron
+    </div>
+  </section>
 
   <!-- MAIN -->
-  <main></main>
+  <main>
+
+    <section id="description">
+      <div class="container">
+        description
+      </div>
+    </section>
+
+    <section id="latest-news">
+      <div class="container">
+        latest-news
+      </div>
+    </section>
+
+    <section id="read-blog">
+      <div class="container">
+        read-blog
+      </div>
+    </section>
+
+    <section id="forum-sections">
+      <div class="container">
+        forum-sections
+      </div>
+    </section>
+
+    <section id="goto-forum">
+      <div class="container">
+        goto-forum
+      </div>
+    </section>
+
+    <section id="join">
+      <div class="container">
+        join
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        newsletter
+      </div>
+    </section>
+
+  </main>
 
   <!-- FOOTER -->
-  <footer id="app"></footer>
+  <footer id="footerApp">
+    <div class="container">
+
+      <div class="column">
+        <h3>{{firstColumn.title}}</h3>
+        <p>{{firstColumn.text}}</p>
+      </div>
+
+      <div class="column" v-for="(col, i) in footerLinks">
+        <h3>{{col.title}}</h3>
+        <ul>
+          <li v-for="link in footerLinks[i].links">{{link}}</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
 
   <script src="js/app.js"></script>
 </body>
