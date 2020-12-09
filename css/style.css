@@ -79,6 +79,24 @@ header ul > li > i.fas {
   font-weight: bold;
 }
 
+/* DESCRIPTION */
+#description {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0;
+}
+#description h3 {
+  color: rgba(58, 58, 58, 0.8);
+  margin: 10px 0;
+}
+#description p {
+  margin: auto;
+  width: 60%;
+  letter-spacing: 2px;
+}
+
+
+
 /* FOOTER */
 #footerApp > .container {
   display: flex;
@@ -101,7 +119,6 @@ header ul > li > i.fas {
 }
 main > section {
   border: 5px solid rgb(0, 255, 64);
-  background-color: #cccc;
 }
 footer {
   min-height: 300px;
