@@ -24,17 +24,13 @@ a {
 }
 .title > h4 {
   color: rgba(58, 58, 58, 0.8);
-  margin-bottom: 20px;
-}
-.title > h1,
-.title > h4 {
-  text-align: center;
+  margin: 20px 0;
 }
 .title > h1 {
   margin: 20px 0;
+  font-size: 35px;
 }
 .title > hr {
-  margin: 40px auto;
   width: 5%;
   border-bottom: 0;
   border-top: 1px solid #fc8c5e;
@@ -111,16 +107,20 @@ header ul > li > i.fas {
 }
 
 /* LATEST NEWS */
-/* post */
-#latest-news .title h1 {
-  font-size: 30px;
+#latest-news .title {
+  text-align: center;
 }
+#latest-news .title > hr {
+  margin: 40px auto;
+}
+/* post */
 #latest-news .post {
   display: flex;
   justify-content: space-between;
+  margin: 30px 0;
 }
 #latest-news .post > article {
-  margin: 0 10px;
+  /* margin: 0 10px; */
   flex-basis: calc((100% / 3) - 20px);
 }
 #latest-news .post > article > img {
@@ -155,21 +155,74 @@ header ul > li > i.fas {
   padding: 40px;
   color: white;
 }
-#latest-news .center .text > h1 {
+#latest-news .text > h1 {
   font-size: 30px;
 }
-#latest-news .center .text > span {
+#latest-news .text > span {
   letter-spacing: 2px;
 }
-#latest-news .center > .text *{
-  margin: 20px;
+#latest-news .text > p {
+  margin-bottom: 30px;
 }
-#latest-news .center a {
-  padding-left: 25px;
-  padding-right: 25px;
+#latest-news .text * {
+  margin: 20px;
+  color: white;
+}
+#latest-news .text a {
+  padding: 15px 25px;
   font-size: 12px;
   letter-spacing: 1px;
 }
+/* bottom */
+#latest-news .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+}
+#latest-news .bottom > .left {
+  flex-basis: 65%;
+  padding: 100px;
+  background-image: url(../img/featured_article_2_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#latest-news .bottom > .right {
+  flex-basis: 35%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#latest-news .bottom .title {
+  text-align: left;
+}
+#latest-news .bottom .title h1 {
+  margin: 0;
+  font-size: 30px;
+}
+#latest-news .bottom .title hr {
+  margin: 20px 0;
+  width: 30%;
+}
+#latest-news #tutorial {
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100%;
+}
+#latest-news #tutorial article {
+  display: flex;
+}
+#latest-news #tutorial img {
+  max-width: 40%;
+}
+#latest-news #tutorial .info {
+  padding-left: 15px;
+}
+
+
+
 
 /* FOOTER */
 #footerApp > .container {
