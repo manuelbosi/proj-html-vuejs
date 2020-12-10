@@ -36,10 +36,12 @@ a {
   border-top: 1px solid #fc8c5e;
   margin-top: 20px;
 }
-.btn-blk {
+.blk-btn {
   padding: 10px;
   background-color: black;
   font-weight: bold;
+  display: inline-block;
+
 }
 .blue-btn {
   background-color: #27aabe;
