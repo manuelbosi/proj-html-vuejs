@@ -304,10 +304,7 @@
       </div>
 
       <div class="right">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
+        <i class="fab" v-for="icon in socialIcons" :class="icon"></i>
       </div>
 
     </div>

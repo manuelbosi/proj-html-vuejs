@@ -36,6 +36,7 @@ const footer = new Vue({
           links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
         { title: "RECENT TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
         { title: "LATEST REPLIES", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] }
-      ]
+      ],
+    socialIcons: ["fa-facebook-f", "fa-twitter", "fa-instagram", "fa-youtube"]
   }
 });
