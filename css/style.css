@@ -24,6 +24,7 @@ a {
 .title > h4 {
   color: rgba(58, 58, 58, 0.8);
   margin: 20px 0;
+  letter-spacing: 2px;
 }
 .title > h1 {
   margin: 20px 0;
@@ -36,19 +37,18 @@ a {
   margin-top: 20px;
 }
 .blk-btn {
-  padding: 10px;
   background-color: black;
   font-weight: bold;
   display: inline-block;
   color: white;
-
+  font-size: 12px;
 }
 .blue-btn {
   background-color: #27aabe;
-  padding: 10px;
   font-weight: bold;
   display: inline-block;
   color: white;
+  font-size: 14px;
 }
 /* HEADER */
 header {
@@ -75,7 +75,9 @@ header ul > li > i.fas {
   color: white;
   cursor: pointer;
 }
-
+header .blk-btn {
+  padding: 10px 20px;
+}
 /* JUMBOTRON */
 #jumbotron {
   background-image: url(../img/home_slider_bg.jpg);
@@ -98,6 +100,9 @@ header ul > li > i.fas {
   margin-bottom: 30px;
   color: rgb(235, 235, 235);
   font-size: 18px;
+}
+#jumbotron .blue-btn {
+  padding: 10px 20px;
 }
 
 /* DESCRIPTION */
@@ -137,6 +142,9 @@ header ul > li > i.fas {
 }
 #latest-news .post > article > img {
   max-width: 100%;
+}
+#latest-news .post > article > h4 {
+  margin-top: 10px;
 }
 #latest-news .post > article span {
   font-size: 12px;
