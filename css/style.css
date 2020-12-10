@@ -318,6 +318,7 @@ header ul > li > i.fas {
   padding: 10px;
   margin-right: 20px;
   width: 50%;
+  border: none;  
 }
 #newsletter > .text-cta > a {
   padding: 10px 50px;
