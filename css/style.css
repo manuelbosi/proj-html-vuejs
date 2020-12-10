@@ -137,7 +137,6 @@ header .blk-btn {
   margin: 30px 0;
 }
 #latest-news .post > article {
-  /* margin: 0 10px; */
   flex-basis: calc((100% / 3) - 20px);
 }
 #latest-news .post > article > img {
