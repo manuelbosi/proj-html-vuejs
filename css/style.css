@@ -325,9 +325,6 @@ header ul > li > i.fas {
 }
 
 /* FOOTER */
-#footerApp {
-  
-}
 #footerApp > .container {
   display: flex;
   justify-content: space-between;
