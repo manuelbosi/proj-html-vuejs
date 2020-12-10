@@ -120,8 +120,8 @@ header ul > li > i.fas {
   justify-content: space-between;
 }
 #latest-news .post > article {
-  margin: 0 5px;
-  flex-basis: calc((100% / 3) - 10px);
+  margin: 0 10px;
+  flex-basis: calc((100% / 3) - 20px);
 }
 #latest-news .post > article > img {
   max-width: 100%;
@@ -141,13 +141,13 @@ header ul > li > i.fas {
 }
 #latest-news .post > article > span,
 #latest-news .post > article > p {
-  color: #aeaeae;
+  color: #62676c;
 }
 
 /* center */
 #latest-news .center {
   display: flex;
-  margin: 40px 0;
+  margin: 50px 0;
   background-image: url(../img/featured_article_1_bg.jpg);
   background-size: cover;
   min-height: 500px;
