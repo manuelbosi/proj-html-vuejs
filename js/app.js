@@ -25,12 +25,17 @@ const header = new Vue({
 const footer = new Vue({
   el : "#footerApp",
   data : {
-    firstColumn: { title: "Titolo1", text: "paragrafo" },
+    firstColumn: 
+    { 
+      title: "AVADA TECH FORUM", 
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in placerat odio. Pellentesque suscipit dolor et neque bibendum, ut rutrum arcu viverra. Fusce at consequat tellus. Etiam feli" 
+    },
     footerLinks :
       [
-        { title: "Titolo2", links: ["link2.1", "link2.2", "link2.3", "link2.4"] },
-        { title: "Titolo3", links: ["link3.1", "link3.2", "link3.3", "link3.4"] },
-        { title: "Titolo4", links: ["link4.1", "link4.2", "link4.3", "link4.4"] }
+        { title: "POPULAR TOPICS", 
+          links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
+        { title: "RECENT TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
+        { title: "LATEST REPLIES", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] }
       ]
   }
 });
