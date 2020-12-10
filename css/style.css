@@ -45,6 +45,11 @@ a {
   display: inline-block;
   color: white;
   font-size: 12px;
+  transition: background-color 0.5s;
+}
+.blk-btn:hover,
+.blue-btn:hover {
+  background-color: #ff8d61;
 }
 .blue-btn {
   background-color: #27aabe;
@@ -52,6 +57,7 @@ a {
   display: inline-block;
   color: white;
   font-size: 14px;
+  transition: background-color 0.5s;
 }
 /* HEADER */
 header {
@@ -147,6 +153,10 @@ header .blk-btn {
 }
 #latest-news .post > article > img {
   max-width: 100%;
+  transition: transform 1s;
+}
+#latest-news .post > article > img:hover {
+  transform: scale(0.95);
 }
 #latest-news .post > article > h4 {
   margin-top: 10px;
@@ -253,9 +263,13 @@ header .blk-btn {
   text-align: center;
   padding: 40px 0;
   font-weight: bold;
+  transition: background-color 0.5s;
 }
 .blk-cta a {
   color: white;
+}
+.blk-cta:hover {
+  background-color: #25a9bd;
 }
 
 /* FORUM SECTIONS */
