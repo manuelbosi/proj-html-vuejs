@@ -285,7 +285,7 @@
       <div class="column" v-for="(col, i) in footerLinks">
         <h3>{{col.title}}</h3>
         <ul>
-          <li v-for="link in footerLinks[i].links">{{link}}</li>
+          <li v-for="link in footerLinks[i].links"><a href="#">{{link}}</a></li>
         </ul>
       </div>
 

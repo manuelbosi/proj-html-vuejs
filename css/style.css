@@ -356,6 +356,9 @@ header ul > li > i.fas {
   padding: 10px 5px;
   border-bottom: 1px solid #ccc;
 }
+#footerApp li > a {
+  color: #62676c;
+}
 #footerApp > .border {
   border-bottom: 1px solid #ccc;
 }
@@ -384,6 +387,8 @@ header ul > li > i.fas {
 }
 #footerApp .fab.fa-instagram {
   background-color: #3f729b;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 #footerApp .fab.fa-youtube {
   background-color: #cd201f;
