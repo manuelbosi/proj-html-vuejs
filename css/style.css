@@ -110,10 +110,12 @@ header ul > li > i.fas {
 #latest-news {
   padding: 50px 0;
 }
-#latest-news .title {
+#latest-news .title,
+#forum-sections .title {
   text-align: center;
 }
-#latest-news .title > hr {
+#latest-news .title > hr,
+#forum-sections .title > hr {
   margin: 40px auto;
 }
 /* post */
@@ -233,6 +235,35 @@ header ul > li > i.fas {
   font-weight: bold;
 }
 
+/* FORUM SECTIONS */
+#forum-sections {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+#sections-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sections-container .item {
+  text-align: center;
+  background-color: white;
+  border-top: 2px solid #27aabe;
+  flex-basis: calc((100% / 4) - 20px);
+  margin-bottom: 30px;
+  padding: 50px 15px;
+}
+#sections-container .item i {
+  background-color: #fc8c5e;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#sections-container .item h3 {
+  font-size: 25px;
+}
 
 /* FOOTER */
 #footerApp > .container {
@@ -245,16 +276,8 @@ header ul > li > i.fas {
 }
 
 /* DEBUG */
-.container {
-  /* border: 1px solid black; */
-}
-#jumbotron {
-  border: 2px solid red;
-}
-#jumbotron > .container {
-  /* border: 1px solid rgb(0, 0, 0); */
-}
-main > section {
+main > #join {
+  min-height: 300px;
   border: 5px solid rgb(0, 255, 64);
 }
 footer {
