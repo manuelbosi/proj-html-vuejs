@@ -224,7 +224,14 @@ header ul > li > i.fas {
   padding-left: 15px;
 }
 
-
+/* READ BLOG */
+.blk-cta {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  font-weight: bold;
+}
 
 
 /* FOOTER */
@@ -248,7 +255,6 @@ header ul > li > i.fas {
   /* border: 1px solid rgb(0, 0, 0); */
 }
 main > section {
-  min-height: 300px;
   border: 5px solid rgb(0, 255, 64);
 }
 footer {
