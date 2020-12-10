@@ -107,6 +107,9 @@ header ul > li > i.fas {
 }
 
 /* LATEST NEWS */
+#latest-news {
+  padding: 50px 0;
+}
 #latest-news .title {
   text-align: center;
 }
@@ -139,9 +142,9 @@ header ul > li > i.fas {
   padding-right: 5px;
   margin-top: 10px;
 }
-#latest-news .post > article > span,
-#latest-news .post > article > p {
-  color: #62676c;
+#latest-news .post > article span,
+#latest-news .post > article p {
+  color: #969799;
 }
 
 /* center */
