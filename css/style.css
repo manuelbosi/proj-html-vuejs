@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
 .container {
   margin: 0 auto;
   max-width: 70%;
@@ -278,7 +281,7 @@ header .blk-btn {
   margin-bottom: 10px;
 }
 #sections-container .item h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* JOIN */
@@ -368,6 +371,7 @@ header .blk-btn {
 }
 #footerApp li > a {
   color: #62676c;
+  font-size: 14px;
 }
 #footerApp > .border {
   border-bottom: 1px solid #ccc;
@@ -375,6 +379,7 @@ header .blk-btn {
 /* left */
 #footerApp .left {
   color: darkgray;
+  font-size: 14px;
 }
 #footerApp .left a {
   color: black;
