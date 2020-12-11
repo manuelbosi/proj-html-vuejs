@@ -153,7 +153,7 @@ header .blk-btn {
 }
 #latest-news .post > article > img {
   max-width: 100%;
-  transition: transform 1s;
+  transition: transform 0.6s;
 }
 #latest-news .post > article > img:hover {
   transform: scale(0.95);
