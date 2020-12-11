@@ -297,6 +297,10 @@ header .blk-btn {
   border-radius: 50%;
   margin-bottom: 10px;
 }
+#sections-container .item .fab.fa-apple {
+  padding-left: 22px;
+  padding-right: 22px;
+}
 #sections-container .item h3 {
   font-size: 20px;
 }
