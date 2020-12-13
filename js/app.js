@@ -41,9 +41,9 @@ const footer = new Vue({
     },
     footerLinks :
       [
-        { title: "POPULAR TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
-        { title: "RECENT TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
-        { title: "LATEST REPLIES", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] }
+        { title: "POPULAR TOPICS", links: [{ title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" } ] },
+        { title: "RECENT TOPICS", links: [{ title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }] },
+        { title: "LATEST REPLIES", links: [{ title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }, { title: "Nam a dolor volutpat massa auctor semper", url: "#" }] }
       ],
     socialIcons: ["fa-facebook-f", "fa-twitter", "fa-instagram", "fa-youtube"]
   }
