@@ -1,6 +1,6 @@
 // Istanza vue js
 // Creare struttura dati: link header, link footer
-// Un array di stringhe headerLink : ["link1", "link2", "link3", "link4", "link5", "link6", "link7"];
+// Un array di oggetti (per eventuale modifiche future) headerLink : ["link1", "link2", "link3", "link4", "link5", "link6", "link7"];
 // Un array di oggetti footerLink
 /*
 footerLink : [
@@ -16,7 +16,16 @@ const header = new Vue({
   el : "#headerApp",
   data : {
     logoPath : "img/logo.png",
-    headerLinks : ["Home", "Apple", "Microsoft", "Android", "Forums", "Contact us", "JOIN US"],
+    headerLinks: 
+      [
+        { title: "Home", url: "#" },
+        { title: "Apple", url: "#" },
+        { title: "Microsoft", url: "#" },
+        { title: "Android", url: "#" },
+        { title: "Forums", url: "#" },
+        { title: "Contact us", url: "#" },
+        { title: "JOIN US", url: "#" }
+      ],
     searchIcon : "fas fa-search"
   }
 });
@@ -32,8 +41,7 @@ const footer = new Vue({
     },
     footerLinks :
       [
-        { title: "POPULAR TOPICS", 
-          links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
+        { title: "POPULAR TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
         { title: "RECENT TOPICS", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] },
         { title: "LATEST REPLIES", links: ["Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper", "Nam a dolor volutpat massa auctor semper"] }
       ],
